@@ -1,0 +1,46 @@
+# File
+  Length:
+    0.                        [error][property emptyfile]
+    1.                        [property onecharacter]
+    integer - 1.              [if !emptyfile][if !emptyinteger]
+    integer + 1.              
+    integer*2.  
+    maxint.
+
+  Content:
+    alphanumeric characters.  [if !onecharacter]
+    mixed Uppercase and lowercase alphabetical characters. [if !onecharacter]
+    Uppercase characters.     
+    lowercase characters.       
+    special characters.       
+    spaces.                   [if !onecharacter]
+
+
+# Input method
+
+  method:
+    -n.                        [property encode]
+    -r.                        [property rightrotate]
+    -l.                        [property leftrotate]
+    -c.                        [property convertcase]
+
+
+# Input Integer
+
+  Integer:
+    empty                     [error][property emptyinteger][if !rightrotate || !leftrotate]
+    empty                     [property emptyinteger][if !rightrotate && !leftrotate]
+    0.                        [if !emptyinteger]
+    >0.                       
+    <0.                       [error]
+    maxint.                   [single]
+
+# Input String
+  Content:
+    empty.                    [single][if convertcase]   
+    lowercase.                [if convertcase]  
+    uppercase.                [if convertcase]  
+    special characters.       [error][if convertcase]  
+    spaces.                   [single][if convertcase]  
+
+

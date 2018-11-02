@@ -90,7 +90,6 @@ private ByteArrayOutputStream outStream;
             "I am going to have a birthday cake!";
     private static final String FILE3 = " abc2018!";
     private static final String FILE4 = "abCD2018!";
-    private static final String FILE5 = " abcxyz!";
     // test cases
 
     /*
@@ -180,7 +179,7 @@ private ByteArrayOutputStream outStream;
     // Purpose: Test if -n, -r, -c can work for file with lowercase characters, integer >0, String with alphabetical letters
     // Frame #: Test Case 34
     @Test
-    public void mainTest6() throws Exception {
+    public void mymainTest6() throws Exception {
         File inputFile6 = createInputFile(FILE1);
 
         String args[] = {"-n", "2", "-r", "2", "-c", "abc", inputFile6.getPath()};
@@ -197,7 +196,7 @@ private ByteArrayOutputStream outStream;
     // Purpose: Test if -n, -r can work for file with mixed Uppercase and lowercase alphanumeric characters
     // Frame #: Test Case 38
     @Test
-    public void mainTest7() throws Exception {
+    public void mymainTest7() throws Exception {
         File inputFile7 = createInputFile(FILE4);
 
         String args[] = {"-n", "2", "-r", "2", inputFile7.getPath()};
@@ -213,7 +212,7 @@ private ByteArrayOutputStream outStream;
     // Purpose: Test if -n, -r can work for file with spaces
     // Frame #: Test Case 39
     @Test
-    public void mainTest8() throws Exception {
+    public void mymainTest8() throws Exception {
         File inputFile8 = createInputFile(FILE3);
 
         String args[] = {"-n", "5", "-r", "5", inputFile8.getPath()};
@@ -229,7 +228,7 @@ private ByteArrayOutputStream outStream;
     // Purpose: Test if -n, -l can work for file with lowercase characters
     // Frame #: Test Case 40
     @Test
-    public void mainTest9() throws Exception {
+    public void mymainTest9() throws Exception {
         File inputFile9 = createInputFile(FILE1);
 
         String args[] = {"-n", "3", "-l", "5", inputFile9.getPath()};
@@ -245,7 +244,7 @@ private ByteArrayOutputStream outStream;
     // Purpose: Test if -n, -c can work for file with lowercase characters
     // Frame #: Test Case 43
     @Test
-    public void mainTest10() throws Exception {
+    public void mymainTest10() throws Exception {
         File inputFile10 = createInputFile(FILE1);
 
         String args[] = {"-n", "3", "-c", "cde", inputFile10.getPath()};
@@ -261,7 +260,7 @@ private ByteArrayOutputStream outStream;
     // Purpose: Test if -n, -c can work for file with spaces????
     // Frame #: Test Case 45
     @Test
-    public void mainTest11() throws Exception {
+    public void mymainTest11() throws Exception {
         File inputFile11 = createInputFile(FILE3);
 
         String args[] = {"-n", "4", "-c", "abe", inputFile11.getPath()};
@@ -277,7 +276,7 @@ private ByteArrayOutputStream outStream;
     // Purpose: Test if -n, -c can work for file with spaces????
     // Frame #: Test Case 45
     @Test
-    public void mainTest12() throws Exception {
+    public void mymainTest12() throws Exception {
         File inputFile11 = createInputFile(FILE3);
 
         String args[] = {"-n", "4", "-c", "abe", inputFile11.getPath()};

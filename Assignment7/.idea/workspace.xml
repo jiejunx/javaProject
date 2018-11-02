@@ -4,7 +4,11 @@
     <list default="true" id="983cfa63-1cb0-4200-ad1c-a908f4045bfb" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../Assignment6/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/edu/gatech/seclass/WhiteboxClass.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test/edu/gatech/seclass/WhiteboxClassTestBC3.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test/edu/gatech/seclass/WhiteboxClassTestPC2.java" afterDir="false" />
@@ -61,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/gatech/seclass/WhiteboxClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="204">
+              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -147,11 +151,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="69" />
-    <option name="y" value="190" />
-    <option name="width" value="1161" />
-    <option name="height" value="816" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-62" />
+    <option name="y" value="273" />
+    <option name="width" value="1764" />
+    <option name="height" value="696" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -202,7 +206,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540998946000" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541185968117" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Assignment7-20181025T193021Z-001/Assignment7" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -222,7 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WhiteboxClassTestSC3">
+  <component name="RunManager" selected="JUnit.WhiteboxClassTestBC3">
     <configuration name="WhiteboxClassTestBC3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assignment7" />
       <extension name="coverage">
@@ -287,8 +291,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WhiteboxClassTestSC3" />
         <item itemvalue="JUnit.WhiteboxClassTestBC3" />
+        <item itemvalue="JUnit.WhiteboxClassTestSC3" />
         <item itemvalue="JUnit.WhiteboxClassTestPC2" />
         <item itemvalue="JUnit.WhiteboxClassTestSC2" />
       </list>
@@ -308,7 +312,7 @@
       <workItem from="1540747958589" duration="3642000" />
       <workItem from="1540819101372" duration="1684000" />
       <workItem from="1540994121038" duration="5094000" />
-      <workItem from="1541185303651" duration="533000" />
+      <workItem from="1541185303651" duration="618000" />
     </task>
     <servers />
   </component>
@@ -330,10 +334,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15389000" />
+    <option name="totallyTimeSpent" value="15474000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="149" y="46" width="774" height="544" extended-state="0" />
+    <frame x="46" y="127" width="774" height="544" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1834734" />
@@ -376,8 +380,8 @@
     <entry file="file://$PROJECT_DIR$/src/edu/gatech/seclass/WhiteboxClassTestSC2.java" />
     <entry file="file://$PROJECT_DIR$/src/edu/gatech/seclass/WhiteboxClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="204">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
         </state>
       </provider>
     </entry>

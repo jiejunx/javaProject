@@ -1,0 +1,60 @@
+JUnit version 4.12
+................E....E..E.E.......
+Time: 0.112
+There were 4 :
+1) mymainTest2(edu.gatech.seclass.encode.MyMainTest)
+org.junit.ComparisonFailure: The files differ! expected:<[06020307080405]> but was:<[abcyzde]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at edu.gatech.seclass.encode.MyMainTest.mymainTest2(MyMainTest.java:126)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:48)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+2) mymainTest6(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.b: You found Bug #1. 
+Arguments used: [-n, 3, -l, 0, /var/folders/0x/403hsnmx7sn_ly1_3sszdjth0000gn/T/junit597952515803100762/junit2064885684747150651.tmp]
+File: abcyzde 
+Encode result: java.lang.IndexOutOfBoundsException
+3) mymainTest8(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.b: You found Bug #8. 
+Arguments used: [-n, 28, /var/folders/0x/403hsnmx7sn_ly1_3sszdjth0000gn/T/junit6617991326111406151/junit5504438403012429399.tmp]
+File: abcyzde 
+Encode result: 03040527280607
+4) mymainTest9(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.b: You found Bug #8. 
+Arguments used: [-n, 28, /var/folders/0x/403hsnmx7sn_ly1_3sszdjth0000gn/T/junit459802179138040930/junit845548584808136646.tmp]
+File: abcyzde 
+Encode result: 03040527280607
+
+FAILURES!!!
+Tests run: 30,  Failures: 4
+

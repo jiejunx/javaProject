@@ -1,0 +1,65 @@
+JUnit version 4.12
+...............E.E.E.E.E.E.E.E......E..E.E.......
+Time: 0.139
+There were 11 failures:
+1) mymainTest31(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.b: You found Bug #9. 
+Arguments used: [-c, Aa, /var/folders/0x/403hsnmx7sn_ly1_3sszdjth0000gn/T/junit8424848113448108802/junit3544767610068261290.tmp]
+File:  
+Encode result: 
+2) mymainTest32(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.b: You found Bug #7. 
+Arguments used: [-n, -n, /var/folders/0x/403hsnmx7sn_ly1_3sszdjth0000gn/T/junit3978168891378070020/junit5671836907893622817.tmp]
+File: ABCXYZ 
+Encode result: java.lang.NumberFormatException
+3) mymainTest33(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.b: You found Bug #3. 
+Arguments used: [-l, 2, -l, 4, /var/folders/0x/403hsnmx7sn_ly1_3sszdjth0000gn/T/junit8499836957966279692/junit5055740389812972465.tmp]
+File: ABCXYZ 
+Encode result: 404142373839
+4) mymainTest34(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.b: You found Bug #6. 
+Arguments used: [5, -1, /var/folders/0x/403hsnmx7sn_ly1_3sszdjth0000gn/T/junit680196414883392824/junit2174497128140241312.tmp]
+File: abcyzde 
+Encode result: 01020325260405
+5) mymainTest35(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.b: You found Bug #4. 
+Arguments used: [-d, 1, /var/folders/0x/403hsnmx7sn_ly1_3sszdjth0000gn/T/junit8859022449137324003/junit9008740202497971545.tmp]
+File:  
+Encode result: java.lang.IndexOutOfBoundsException
+6) mymainTest36(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.b: You found Bug #5. 
+Arguments used: [-d, three, /var/folders/0x/403hsnmx7sn_ly1_3sszdjth0000gn/T/junit4015999946765408426/junit8182652998175531061.tmp]
+File:  
+Encode result: java.lang.NumberFormatException: For input string: "three"
+7) mymainTest37(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.b: You found Bug #2. 
+Arguments used: [-c, , /var/folders/0x/403hsnmx7sn_ly1_3sszdjth0000gn/T/junit6642553107346707361/junit4148144880599868175.tmp]
+File: a 
+Encode result: java.lang.ArrayIndexOutOfBoundsException
+8) mymainTest38(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.b: You found Bug #10. 
+Arguments used: [-l, 1, /var/folders/0x/403hsnmx7sn_ly1_3sszdjth0000gn/T/junit426793767653110543/junit5739657920721580074.tmp]
+File: abcd
+
+ 
+Encode result: java.lang.ArithmeticException
+9) mymainTest6(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.b: You found Bug #1. 
+Arguments used: [-n, 3, -l, 0, /var/folders/0x/403hsnmx7sn_ly1_3sszdjth0000gn/T/junit3208690270431956061/junit1239117978224048696.tmp]
+File: abcyzde 
+Encode result: java.lang.IndexOutOfBoundsException
+10) mymainTest8(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.b: You found Bug #8. 
+Arguments used: [-n, 28, /var/folders/0x/403hsnmx7sn_ly1_3sszdjth0000gn/T/junit4483446101941822911/junit7891395768509857848.tmp]
+File: abcyzde 
+Encode result: 03040527280607
+11) mymainTest9(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.b: You found Bug #8. 
+Arguments used: [-n, -3, /var/folders/0x/403hsnmx7sn_ly1_3sszdjth0000gn/T/junit3675809931731436634/junit6573616145028372809.tmp]
+File: abcyzde 
+Encode result: 0-20-10022230102
+
+FAILURES!!!
+Tests run: 38,  Failures: 11
+
